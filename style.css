@@ -298,14 +298,7 @@ body.home {
         padding: 0.5rem 1rem;
     }
 
-    .translate-button {
-        font-size: 1rem;
-        padding: 8px 12px;
-    }
-
-    .translate-icon {
-        width: 25px;
-    }
+ 
 
     .stats {
         padding: 20px 0;
@@ -325,14 +318,4 @@ body.home {
         width: 100px;
     }
 }
-.top-left-icons {
-    position: relative;
-    top: 20px; /* Mueve hacia abajo */
-    left: 10px;
-    flex-direction: column;
-    gap: 10px;
-}
 
-.top-left-icons img {
-    width: 120px;
-}
