@@ -186,4 +186,8 @@ h3 {
         font-size: 1rem;
         padding: 10px 12px;
     }
+
+.extra-image {
+    display: none;  /* Hide the image on screens smaller than 768px */
+  }
 }
