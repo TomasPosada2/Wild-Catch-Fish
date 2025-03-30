@@ -1,0 +1,371 @@
+/*==================== BASE STYLES ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+    --primary-color: #003366; /* Dark Blue */
+    --secondary-color: #cc0000; /* Deep Red */
+    --background-color: #f8f8f8; /* Light Gray */
+    --text-color: #333;
+    --header-color: #ffffff;
+    --footer-color: #002244;
+    --button-color: #cc0000;
+    --button-hover: #a30000;
+
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+/*==================== HEADER ====================*/
+.header {
+    background-color: var(--header-color);
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+
+/*==================== HOME PAGE STYLES ====================*/
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600vh;
+    background: url('images/fish-market-banner.jpg') center/cover no-repeat;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.382);
+}
+
+
+
+.home-content {
+    background: rgba(0, 0, 0, 0);
+    padding: 9rem;
+    border-radius: 10px;
+    
+}
+/* Styles for the Title */
+.header h1 {
+    font-size: 3rem; /* Adjust size as needed */
+    font-weight: bold;
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 10px;
+}
+
+
+.home-content h2 {
+    font-size: var(--h1-font-size);
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.home-content p {
+    font-size: var(--normal-font-size);
+    margin-bottom: 2rem;
+    color: #ddd;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    background-color: var(--button-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--button-hover);
+}
+
+.btn-secondary {
+    background-color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+    background-color: #001a33;
+}
+
+
+/*==================== FOOTER ====================*/
+.footer {
+    background-color: var(--footer-color);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 0rem;
+}
+/* Background image only for the home page */
+body.home {
+    background: url("PescadoLancha.jpg") no-repeat center center/cover;
+    height: 270vh;
+    background-size: 100%; /* Zoomed out (increase percentage to zoom out more) */
+
+}
+/* Home Page Image Styling */
+/* Home Section */
+.home-section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the content */
+    justify-content: center;
+    height: 100vh;
+    background: url('PescadoLancha.jpg') center/cover no-repeat;
+    padding: 2rem;
+    position: relative;
+}
+
+/* Top Left Logo Image for All Pages */
+.top-left-image {
+    position: absolute;
+    top: -90px;
+    left: 20px;
+    width: 200px; /* Adjust size as needed */
+    z-index: 100; /* Ensures it stays on top */
+}
+
+
+/* Center Text and Buttons */
+.home-content {
+    text-align: center; /* Center text inside the content */
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+    color: white;
+}
+
+/* Center Buttons */
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.language-switch {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between flag and button */
+}
+
+/* Small Flag/Icon */
+.translate-icon {
+    position: absolute;
+    width: 35px;  /* Adjust size */
+    height: auto;
+    right: 60px;
+}
+
+/* Language Change Button */
+.translate-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 60px;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+/* Hover Effect */
+.translate-button:hover {
+    background-color: var(--button-hover);
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #f4f2eb46; /* Color de fondo similar al de la imagen */
+    padding: 10px 0;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.stat-item h2 {
+    color: #e58b23; /* Color naranja */
+    font-size: 2rem;
+    margin: 5px 0;
+}
+
+.stat-item p {
+    color: #35524a; /* Color verde oscuro */
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.stat-img-1 {
+    width: 100px;
+    margin-top: 15px;
+}
+
+.stat-img-2 {
+    width: 120px;
+    margin-top: -5px;
+}
+
+.stat-img-3 {
+    width: 200px;
+    margin-top: 1px;
+}
+.stats {
+    display: flex;
+    justify-content: center; /* Centers all elements */
+    gap: 200px; /* Reduce space between items */
+    text-align: center;
+    background-color: #f4f2eb;
+    padding: 40px 0;
+}
+
+/* Reduce extra margin */
+.stat-item {
+    margin: 0;
+    padding: 5px; /* Small padding for spacing */
+}
+
+@media (max-width: 1024px) {
+    .stats {
+        gap: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home-content h2 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 0;
+    }
+
+    .language-switch {
+        top: 20px;
+        right: 15px;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .translate-icon {
+        width: 30px;
+        right: 50px;
+    }
+
+    .top-left-image {
+        top: 10px;
+        left: 10px;
+        width: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-content {
+        padding: 1.5rem;
+    }
+
+    .home-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .home-content p {
+        font-size: 0.95rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .translate-button {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+
+    .translate-icon {
+        width: 25px;
+    }
+
+    .stats {
+        padding: 20px 0;
+    }
+
+    .stat-item h2 {
+        font-size: 1.5rem;
+    }
+
+    .stat-item p {
+        font-size: 1rem;
+    }
+
+    .stat-img-1,
+    .stat-img-2,
+    .stat-img-3 {
+        width: 100px;
+    }
+}

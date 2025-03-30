@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("dji_fly_20221023_065208_256_1666526641688_photo_optimized.JPG") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    color: #003366(121, 13, 13);
+    text-align: center;
+    padding: 15px 0;
+}
+
+.header h1 {
+    margin: 0;
+    color: #003366;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+nav ul li a {
+    color:#003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* ======= Contact Section ======= */
+.contact-section {
+    background-color: white;
+    padding: 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    color: #004080;
+    margin-bottom: 20px;
+    position: relative;
+    left: 90px
+}
+
+/* ======= Contact Buttons ======= */
+.contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* WhatsApp Button */
+.whatsapp  {
+    background-color: #004080;
+    position: relative;
+    left: 0px
+}
+
+.whatsapp:hover {
+    background-color: #004080;
+}
+
+/* Instagram Button */
+.instagram {
+    background-color: #004080;
+}
+.instagram img {
+    width: 55px; /* Adjust this size as needed */
+    height: auto;
+    display: flex;
+    justify-content: flex-start; /* Aligns to the left */
+    margin-left: 0; /* Ensures it stays on the left */
+
+    
+}
+.instagram:hover {
+    background-color: #004080;
+}
+
+/* Button Icons */
+.whatsapp img {
+    width: 40px;
+    height: auto;
+}
+
+/* Email */
+.email {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.email a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
+
+/* Shipping Info */
+.shipping {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* ======= Footer ======= */
+.footer {
+    background-color: #00408000;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* ======= Logo & Home Button (Top Left) ======= */
+.top-left-icons {
+    position: fixed;
+    top: -70px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 1000;
+}
+
+.top-left-icons .logo {
+    width: 250px; /* Adjust size as needed */
+    height: auto;
+}
+
+.top-left-icons .home-img {
+    width: 160px; /* Adjust home button size */
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.top-left-icons .home-img:hover {
+    transform: scale(1.1);
+}
+.extra-img {
+    width: 160px; /* Tamaño diferente para la segunda imagen */
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    left: 0px;
+}
+/* ======= Responsive para móviles ======= */
+@media (max-width: 600px) {
+    body {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .header {
+        padding: 10px 5px;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+
+    .top-left-icons {
+        top: 10px;
+        left: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .top-left-icons .logo {
+        width: 180px;
+    }
+
+    .top-left-icons .home-img {
+        width: 120px;
+    }
+
+    .extra-img {
+        width: 120px;
+    }
+
+    .contact-section {
+        padding: 20px;
+        margin: 20px 10px;
+    }
+
+    .contact-section h2 {
+        font-size: 20px;
+        left: 0;
+        text-align: center;
+    }
+
+    .contact-button {
+        flex-direction: row;
+        justify-content: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .contact-button img {
+        width: 30px;
+    }
+
+    .email,
+    .shipping {
+        font-size: 14px;
+        text-align: center;
+    }
+}

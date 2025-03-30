@@ -1,0 +1,247 @@
+/* ======= General Styles ======= */
+body {
+    font-family: Arial, sans-serif;
+    background: url("dji_fly_20221023_065208_256_1666526641688_photo_optimized.JPG") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    color: #003366(121, 13, 13);
+    text-align: center;
+    padding: 15px 0;
+}
+
+.header h1 {
+    margin: 0;
+    color: #003366;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+nav ul li a {
+    color:#003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ======= Ronqueo Section ======= */
+.ronqueo-intro, .ronqueo-experience {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ronqueo-content, .experience-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ronqueo-text, .experience-text {
+    flex: 1;
+    font-size: 20px;
+}
+
+.ronqueo-image, .experience-image {
+    width: 40%;
+}
+
+.ronqueo-image img, .experience-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* ======= Botón de Volver al Inicio ======= */
+.top-left-icons {
+    position: absolute;
+    top: -70px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 1000;
+}
+
+.top-left-icons img {
+    width: 160px;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.top-left-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* ======= Footer ======= */
+.footer {
+    background-color: #00408000;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+}
+
+
+/* 🔹 Contenedor del Slider */
+.image-slider {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(246, 246, 246, 0.129);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.slider-wrapper {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    gap: 15px;
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+}
+
+.slider img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.slider img.horizontal {
+    width: auto;
+    height: 150px;
+}
+
+.slider img.vertical {
+    width: 100px;
+    height: 150px;
+}
+
+
+/* 🔹 Animación del Slider */
+
+
+/* 🔹 Contenedor para colocar Texto a la Izquierda y Video a la Derecha */
+.ronqueo-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 30px;
+}
+
+/* 🔹 Estilo del Texto */
+.ronqueo-text {
+    width: 50%;
+    text-align: left;
+}
+
+.ronqueo-text h2 {
+    font-size: 24px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.ronqueo-text p {
+    font-size: 21px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 🔹 Estilo del Video */
+.video-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.video-container video {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ======= Animation ======= */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+
+    .top-left-icons {
+        top: 10px;
+        left: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .top-left-icons img {
+        width: 120px;
+    }
+
+    .ronqueo-content,
+    .experience-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ronqueo-text,
+    .experience-text,
+    .ronqueo-image,
+    .experience-image,
+    .video-container {
+        width: 100%;
+    }
+
+    .video-container video {
+        max-width: 350px;
+    }
+
+    .slider img.horizontal {
+        height: 120px;
+    }
+
+    .slider img.vertical {
+        width: 80px;
+        height: 120px;
+    }
+}
