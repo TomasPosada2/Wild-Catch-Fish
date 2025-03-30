@@ -184,8 +184,39 @@ nav ul li a {
     margin-bottom: 5px;
 }
 
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+    /* Stack Info Section */
+    .info-section {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .info-text, .info-image {
+        width: 100%;
+    }
 
+    .info-image img {
+        max-width: 300px;
+    }
+
+    /* Make product grid 2 columns */
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Last row with 2 products centered */
+    .fila-4 {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Make product grid 1 column */
+    .product-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 /* ======= Footer ======= */
 .footer {
@@ -258,89 +289,4 @@ nav ul li a {
     margin-top: 5px; /* Space between image and text */
     white-space: nowrap; /* Keeps text in one line */
     font-weight: bold;
-}
-/* ======= Responsive Design ======= */
-@media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-        background-size: cover;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px;
-    }
-
-    .header h1 {
-        font-size: 22px;
-    }
-
-    .top-left-icons {
-        top: 10px;
-        left: 10px;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .home-img,
-    .extra-img {
-        width: 120px;
-    }
-
-    .info-section {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .info-text,
-    .info-image {
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    .info-image img {
-        max-width: 300px;
-    }
-
-    .product-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .fila-4 {
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-    }
-
-    #whatsapp-container {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-    }
-
-    #whatsapp-text {
-        font-size: 14px;
-        padding: 6px 12px;
-    }
-}
-
-@media (max-width: 480px) {
-    .product-grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .section h2 {
-        font-size: 30px;
-    }
-
-    .info-highlight {
-        font-size: 28px;
-    }
-
-    .info-text p,
-    .info-text p2,
-    .info-text p3 {
-        font-size: 14px;
-    }
 }

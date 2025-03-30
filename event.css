@@ -95,7 +95,13 @@ nav ul li a {
     margin-top: 20px;
 }
 
-
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+    .ronqueo-content, .experience-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 /* 🔹 Contenedor del Slider */
 .image-slider {
     width: 100%;
@@ -140,8 +146,22 @@ nav ul li a {
 
 
 /* 🔹 Animación del Slider */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Ahora se reinicia sin pausa */
+}
 
-
+/* 🔹 Diseño Responsivo */
+@media (max-width: 768px) {
+    .slider img.horizontal {
+        height: 120px;
+    }
+    
+    .slider img.vertical {
+        width: 80px;
+        height: 120px;
+    }
+}
 /* 🔹 Contenedor para colocar Texto a la Izquierda y Video a la Derecha */
 .ronqueo-content {
     display: flex;
@@ -185,63 +205,18 @@ nav ul li a {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* ======= Animation ======= */
-@keyframes slide {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-}
-
-/* ======= Responsive Design ======= */
+/* 🔹 Responsive: Ajuste en Pantallas Pequeñas */
 @media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px;
-    }
-
-    .header h1 {
-        font-size: 22px;
-    }
-
-    .top-left-icons {
-        top: 10px;
-        left: 10px;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .top-left-icons img {
-        width: 120px;
-    }
-
-    .ronqueo-content,
-    .experience-content {
+    .ronqueo-content {
         flex-direction: column;
         text-align: center;
     }
 
-    .ronqueo-text,
-    .experience-text,
-    .ronqueo-image,
-    .experience-image,
-    .video-container {
+    .ronqueo-text, .video-container {
         width: 100%;
     }
 
     .video-container video {
         max-width: 350px;
-    }
-
-    .slider img.horizontal {
-        height: 120px;
-    }
-
-    .slider img.vertical {
-        width: 80px;
-        height: 120px;
     }
 }
