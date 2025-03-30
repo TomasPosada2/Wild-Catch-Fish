@@ -280,7 +280,7 @@ body.home {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .home-content {
         padding: 1.5rem;
     }
@@ -317,5 +317,9 @@ body.home {
     .stat-img-3 {
         width: 100px;
     }
-}
 
+
+.extra-image {
+    display: none;  /* Hide the image on screens smaller than 768px */
+  }
+}
