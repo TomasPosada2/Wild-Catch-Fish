@@ -53,7 +53,7 @@ nav ul li a {
 .contact-button {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     gap: 10px;
     background-color: #25D366; /* WhatsApp Green */
     color: white;
@@ -129,8 +129,8 @@ nav ul li a {
 .footer {
     background-color: #00408000;
     color: white;
-    padding: 60px 0;
-    margin-top: 20px;
+    padding: 0px ;
+    margin-top: 120px;
 }
 /* ======= Logo & Home Button (Top Left) ======= */
 .top-left-icons {

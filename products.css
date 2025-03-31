@@ -257,16 +257,18 @@ nav ul li a {
     transform: scale(1.1);
 }
 /* WhatsApp Container */
+/* WhatsApp Container */
 #whatsapp-container {
-    position: absolute; /* Keeps it in place while scrolling */
-    right: 300px; /* Adjusts distance from the right */
-    bottom: 440px; /* Adjusts distance from the bottom */
+    position: absolute; /* Keeps it fixed at the top right */
+    right: 20px; /* Adjusts distance from the right */
+    top: 20px; /* Adjusts distance from the top */
     display: flex;
-    flex-direction: column; /* Stack image and text */
+    flex-direction: column; /* Stack image and text vertically */
     align-items: center; /* Center content horizontally */
     text-align: center;
     z-index: 1000; /* Ensures it stays above other elements */
 }
+
 
 /* WhatsApp Icon */
 #whatsapp-btn img {
