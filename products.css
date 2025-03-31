@@ -259,8 +259,8 @@ nav ul li a {
 /* WhatsApp Container */
 #whatsapp-container {
     position: absolute; /* Keeps it in place while scrolling */
-    right: 760px; /* Adjusts distance from the right */
-    bottom: 390px; /* Adjusts distance from the bottom */
+    right: 300px; /* Adjusts distance from the right */
+    bottom: 440px; /* Adjusts distance from the bottom */
     display: flex;
     flex-direction: column; /* Stack image and text */
     align-items: center; /* Center content horizontally */

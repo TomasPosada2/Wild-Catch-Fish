@@ -96,35 +96,32 @@ nav ul li a {
 /* 🔹 Image Grid (3 Columns, 4 Rows) */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 90%;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+    gap: 10px;
+    width: 95%;
     margin: auto;
 }
 
-.gallery-item img {
-    will-change: transform;
-    transform: translateZ(0);
-}
-/* 🔹 Image Styling */
 .gallery-item {
+    padding: 0; /* Sin bordes ni fondo */
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
     text-align: center;
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* 🔹 Estilo de las imágenes */
 .gallery-item img {
-    width: 60%;
-    height: 200px;
+    width: 100%;
+    height: 220px;
     object-fit: cover;
+    aspect-ratio: 4 / 3;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
 }
 
 .gallery-item img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /* 🔹 Image Captions */
@@ -184,4 +181,25 @@ nav ul li a {
     transition: transform 0.2s ease-in-out;
     position: relative;
     left: px;
+}
+.whatsapp-reserva {
+    background-color: #25d366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 85%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.whatsapp-reserva a {
+    color: white;
+    text-decoration: none;
+}
+
+.whatsapp-reserva a:hover {
+    text-decoration: underline;
 }
