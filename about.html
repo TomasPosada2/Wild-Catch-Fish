@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="top-left-icons">
+        <div class="top-left-icons">    
             <a href="index.html" class="home-button">
                 <img src="WildCatchLogo-removebg-preview.png" alt="Volver al Inicio" class="home-img">
             </a>
@@ -20,7 +20,7 @@
         <h1>Sobre Nosotros</h1>
         <nav>
             <ul>
-                <li><a href="products.html">Nuestros Productos</a></li>
+                <li><a href="products.html">Productos</a></li>
                 <li><a href="events.html">Eventos</a></li>
                 <li><a href="Recuerdos.html">Viajes</a></li>
                 <li><a href="contact.html">Contáctanos</a></li>
@@ -29,93 +29,66 @@
         </nav>
     </header>
 
-    <!-- 📖 Nuestra Historia -->
-        <div class="historia-container">
-            <div class="historia-texto">
-                <h2>Nuestra Historia</h2>
-                <p>Desde nuestros humildes comienzos como una pequeña empresa familiar, hemos crecido hasta convertirnos en un referente en el mundo de la pesca sostenible. Nuestra pasión por el mar y la calidad nos ha llevado a ofrecer productos frescos y de la mejor calidad.</p>
-            </div>
-            <div class="historia-imagen">
-                <img src="logo.PNG" alt="Nuestra Historia">
-            </div>
+    <!-- 🐟 SECCIÓN HERO (tipo Capiro) -->
+    <section class="hero-section">
+        <img src="image-removebg-preview.png" alt="Imagen Principal" class="hero-img">
+        <div class="hero-text">
         </div>
     </section>
-    
 
-    <!-- 👨‍👩‍👧‍👦 Primera Sección: "Nuestra Familia" y "Nuestros Sueños" -->
-    <!-- 👨‍👩‍👧‍👦 Primera Sección: "Nuestra Familia" y "Nuestros Sueños" -->
-    <section class="slider-section">
-        <div class="slider-container">
-            <button class="prev-btn" onclick="prevSlide(1)">◀</button>
-            <div class="slider" id="slider1">
-                <div class="slide active">
-                    <div class="slide-content">
-                        <div class="text-box">
-                            <h3>Nuestra Familia</h3>
-                            <p>En Wild Catch, somos una gran familia apasionada por el mar y la tradición pesquera.</p>
-                        </div>
-                    </div>
-                    <img src="pesca.jpeg" alt="Nuestra Familia">
-                </div>
-                <div class="slide">
-                    <div class="slide-content">
-                        <div class="text-box">
-                            <h3>Nuestros Sueños</h3>
-                            <p>Queremos compartir nuestra pasión con el mundo y seguir expandiendo nuestro legado marítimo.</p>
-                        </div>
-                    </div>
-                    <img src="BackR.jpeg" alt="Nuestros Sueños">
-                </div>
-            </div>
-            <button class="next-btn" onclick="nextSlide(1)">▶</button>
+    <!-- 📜 LÍNEA DE TIEMPO ESTILO CAPIRO -->
+    <section class="timeline">
+        <div class="timeline-item">
+            <h2>2014</h2>
+            <p>Nuestra primera vez en Bahía Solano, Colombia.</p>
+        </div>
+        <div class="timeline-item">
+            <h2>2017</h2>
+            <p>Se hizo el primer ensayo de logistica trayendo pesca fresca de Bahía Solano.</p>
+        </div>
+        <div class="timeline-item">
+            <h2>2020</h2>
+            <p>En la pandemia se hizo el segundo ensayo trayendo pescados y mariscos.</p>
+        </div>
+        <div class="timeline-item">
+            <h2>2022</h2>
+            <p>Se fundo el grupo WILD-CATCH COLOMBIA realizando multiples viajes de pesca durante el año.</p>
+        </div>
+        <div class="timeline-item">
+            <h2>2023</h2>
+            <p>El grupo fundo WILD-CATCH FISH MARKET, empezando con distribucion de pescados y mariscos en Antioquia,Colombia. </p>
+        </div>
+        <div class="timeline-item">
+            <h2>2024</h2>
+            <p>Empezo la distribucion a nivel nacional y se logro alcanzar las metas pronosticadas</p>
+        </div>
+        <div class="timeline-item">
+            <h2>2025</h2>
+            <p>Continuo el crecimiento y se creo el centro de acopio en Bahía Solano.</p>
         </div>
     </section>
-    
 
-<!-- 🎯 Segunda Sección: "Misión, Visión y Propósito" -->
-<section class="slider-section">
-    <div class="slider-container">
-        <button class="prev-btn" onclick="prevSlide(2)">◀</button>
-        <div class="slider" id="slider2">
-            <div class="slide active">
-                <div class="slide-content">
-                    <div class="text-box">
-                        <h3>Misión</h3>
-                        <p>Brindar productos del mar sostenibles, frescos y de alta calidad a cada hogar y restaurante.</p>
-                    </div>
-                </div>
-                <img src="Mision.jpeg" alt="Misión">
-            </div>
-            <div class="slide">
-                <div class="slide-content">
-                    <div class="text-box">
-                        <h3>Visión</h3>
-                        <p>Ser líderes en la pesca sostenible y expandir nuestra comunidad alrededor del mundo.</p>
-                    </div>
-                </div>
-                <img src="Vision.jpeg" alt="Visión">
-            </div>
-            <div class="slide">
-                <div class="slide-content">
-                    <div class="text-box">
-                        <h3>Propósito</h3>
-                        <p>Promover la pesca responsable, la tradición y el respeto por nuestros océanos.</p>
-                    </div>
-                </div>
-                <img src="proposito.jpg" alt="Propósito">
-            </div>
+    <!-- 📦 MISIÓN, VISIÓN Y PROPÓSITO EN TARJETAS -->
+    <section class="valores-section">
+        <div class="valor-card">
+            <h3>Propósito</h3>
+            <p>Nuestro propósito en WILD-CATCH Fish Market, es liderar la industria de la pesca de manera sostenible, priorizando la conservación de los océanos y la equidad social en las comunidades pesqueras. Nos comprometemos a ofrecer productos del mar de alta calidad obtenidos de forma ética y respetuosa con el medio ambiente, garantizando un futuro saludable para nuestros océanos y generaciones venideras.</p>
         </div>
-        <button class="next-btn" onclick="nextSlide(2)">▶</button>
-    </div>
-</section>
+        <div class="valor-card">
+            <h3>Misión</h3>
+            <p>Nuestra misión es generar oportunidades en Bahía Solano para contribuir a su desarrollo económico y social, ya que es un territorio con grandes necesidades y a la vez con una riqueza única natural; como sus ecosistemas, sus paisajes, su fauna marina y terrestre.   </p>
+        </div>
+        <div class="valor-card">
+            <h3>Visión</h3>
+            <p>Ser líderes en la pesca sostenible y expandir nuestra comunidad alrededor del mundo. Teniendo siempre en cuenta la sostenibilidad y la responsabilidad con el medio ambiente generando un imapcto positivo con las comunidades pesqueras.</p>
+        </div>
+    </section>
 
-
-    <script defer src="about.js"></script>
-
-    <!-- ⛵ Footer -->
+    <!-- ⛵ FOOTER -->
     <footer class="footer">
         <p>&copy; 2025 Wild Catch Fish Market. Todos los derechos reservados.</p>
     </footer>
 
+    <script defer src="main.js"></script>
 </body>
 </html>
