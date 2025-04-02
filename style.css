@@ -277,6 +277,42 @@ body.home {
     background-color: #f4f2eb;
     padding: 40px 0;
 }
+/* 🔹 Default: Button in Top Right */
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* 🔹 Style for the Button */
+#language-switcher {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#language-switcher:hover {
+    background-color: #0056b3;
+}
+
+/* 🔹 Mobile View: Move Button Below Logo */
+@media (max-width: 768px) {
+    .top-right {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #language-switcher {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
 
 /* Reduce extra margin */
 .stat-item {
@@ -291,7 +327,7 @@ body.home {
     }
     
     h1[data-translate="title"] {
-            font-size: 2.1rem;
+            font-size: 1.2rem;
     }
     
     nav ul {
@@ -339,5 +375,13 @@ body.home {
         width: 90px;
         top: 90px;
     }
-    
+    @media (max-width: 768px) {
+        .top-left-image {
+            position: static; /* Remove absolute positioning */
+            display: block;
+            margin: 0 auto; /* Center the logo */
+            width: 100px; /* Adjust size for mobile */
+        
+}
+    }
 }

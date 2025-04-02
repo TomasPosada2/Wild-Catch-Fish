@@ -3,37 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate="title">WILD-CATCH COLOMBIA</title>
+    <script src="language.js"></script>
+    <script src="translate.js"></script>
+    <title data-translate="site-title">WILD-CATCH COLOMBIA</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <body>
     <!-- Logo en la esquina superior izquierda -->
     <img src="WildCatchLogo-removebg-preview.png" alt="Pesca Responsable" class="top-left-image">
-
+    <div class="top-right">
+        <button id="language-switcher">English</button>
+    </div>
     <header class="header">
-        <h1 data-translate="title">WILD-CATCH COLOMBIA</h1>
+        <h1 data-translate="site-title">WILD-CATCH COLOMBIA</h1>
+        
         <nav>
             <ul>
-                <li><a href="about.html" data-translate="about">Quiénes Somos</a></li>
+                <li><a href="about.html" data-translate="about-us">Quiénes Somos</a></li>
                 <li><a href="products.html" data-translate="products">Productos</a></li>
                 <li><a href="events.html" data-translate="events">Eventos</a></li>
-                <li><a href="Recuerdos.html" data-translate="testimonies">Viajes</a></li>
-                <li><a href="contact.html" data-translate="contact">Contáctanos</a></li>
+                <li><a href="Recuerdos.html" data-translate="trips">Viajes</a></li>
+                <li><a href="contact.html" data-translate="contact-us">Contáctanos</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="home-section">
         <div class="home-content">
-            <h2 data-translate="home-text">Pesca responsable, fresca & sostenible.</h2>
-            <p data-translate="home-description">
+            <h2 data-translate="home-heading">Pesca responsable, fresca & sostenible.</h2>
+            <p data-translate="home-text">
                 WILD-CATCH FISH MARKET está dedicado a liderar la industria pesquera de manera sostenible, 
                 priorizando la conservación del océano y la equidad social en las comunidades pesqueras.
             </p>
             <div class="home-buttons">
-                <a href="products.html" class="btn" data-translate="home-products-btn">Conoce Nuestros Productos</a>
-                <a href="https://linktr.ee/wild_catch" class="btn btn-secondary" data-translate="home-order-btn">
+                <a href="products.html" class="btn" data-translate="see-products">Conoce Nuestros Productos</a>
+                <a href="https://linktr.ee/wild_catch" class="btn btn-secondary" data-translate="place-order">
                     Realiza tu Primer Pedido
                 </a>
             </div>
@@ -44,30 +49,27 @@
         <div class="stat-item">
             <img src="kg-removebg-preview.png" class="stat-img stat-img-1" alt="Icono 1">
             <h2 class="counter" data-target="15137">0</h2>
-            <a>Kilogramos de pescado</a>
+            <a data-translate="kg-fish">Kilogramos de pescado</a>
         </div>
     
         <div class="stat-item">
             <img src="col-removebg-preview.png" class="stat-img stat-img-2" alt="Icono 2">
             <h2 class="counter" data-target="97">0</h2>
-            <a>Restaurantes Llegados</a>
+            <a data-translate="restaurants-reached">Restaurantes Llegados</a>
         </div>
     
         <div class="stat-item">
             <img src="hand-removebg-preview.png" class="stat-img stat-img-3" alt="Icono 3">
             <h2 class="counter" data-target="14">0</h2>
-            <a>Colaboradores</a>
+            <a data-translate="collaborators">Colaboradores</a>
         </div>
     </section>
     
-   
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script defer src="translate.js"></script>
     
     <footer class="footer">
-        <p>&copy; 2025 Wild Catch Fish Market. Todos los derechos reservados.</p>
+        <p data-translate="footer-text">&copy; 2025 Wild Catch Fish Market. Todos los derechos reservados.</p>
     </footer>
-    <script src="index.js"></script>
 </body>
 </html>
-
