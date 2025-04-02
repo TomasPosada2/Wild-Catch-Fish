@@ -211,7 +211,7 @@ nav ul li a {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     /* Make product grid 1 column */
     .product-grid {
         grid-template-columns: repeat(1, 1fr);
@@ -230,28 +230,45 @@ nav ul li a {
 /* 🔹 Contenedor de los iconos */
 .top-left-icons {
     position: absolute;
-    top: -70px;
+    top: 6px;
     left: 20px;
     display: flex;
     align-items: center;
-    gap: 80px; /* Espacio entre las imágenes */
+    gap: 15px;
     z-index: 1000;
 }
+.whatsapp-reserva {
+    background-color: #25d366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px auto;
+    border-radius: 8px;
+    width: 85%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.top-left-icons .logo {
+    width: 250px; /* Adjust size as needed */
+    height: auto;
+}
 
-/* 🔹 Estilos individuales para cada imagen */
-.home-img {
-    width: 160px; /* Tamaño del botón de inicio */
+.top-left-icons .home-img {
+    width: 120px; /* Adjust home button size */
     height: auto;
     transition: transform 0.2s ease-in-out;
 }
 
+.top-left-icons .home-img:hover {
+    transform: scale(1.1);
+}
 .extra-img {
     width: 160px; /* Tamaño diferente para la segunda imagen */
     transition: transform 0.2s ease-in-out;
     position: relative;
-    left: -65px;
+    left: 0px;
 }
-
 /* 🔹 Efectos hover individuales */
 .home-img:hover {
     transform: scale(1.1);
@@ -291,4 +308,38 @@ nav ul li a {
     margin-top: 5px; /* Space between image and text */
     white-space: nowrap; /* Keeps text in one line */
     font-weight: bold;
+}
+@media (max-width: 768px) {
+    .top-left-icons {
+        top: 0px; /* Moves it closer to the top */
+        left: 5px;
+        gap: 5px;
+    }
+
+    .top-left-icons .logo {
+        width: 60px; /* Smaller logo */
+    }
+
+    .top-left-icons .home-img {
+        width: 60px;
+    }
+
+    .extra-img {
+        width: 60px;
+        display: none;
+
+        
+    }
+    #whatsapp-container {
+        top: 200px;
+    }
+    #whatsapp-btn img {
+        width: 40px; /* Adjust the size */
+    }
+    .whatsapp-reserva {
+        width: 45%; /* Reduce width */
+        padding: 10px; /* Adjust padding */
+        font-size: 0.6rem; /* Decrease font size */
+    }
+
 }

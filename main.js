@@ -14,6 +14,9 @@ if (close) {
         menu.classList.remove('show-menu');
     });
 }
+document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector(".nav-menu").classList.toggle("show");
+});
 
 /*==================== SWIPER SLIDER FOR TESTIMONIALS ====================*/
 document.addEventListener("DOMContentLoaded", function () {

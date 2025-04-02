@@ -162,9 +162,9 @@ body.home {
 /* Top Left Logo Image for All Pages */
 .top-left-image {
     position: absolute;
-    top: -90px;
+    top: 0px;
     left: 20px;
-    width: 200px; /* Adjust size as needed */
+    width: 165px; /* Adjust size as needed */
     z-index: 100; /* Ensures it stays on top */
 }
 
@@ -279,3 +279,47 @@ body.home {
     padding: 5px; /* Small padding for spacing */
 }
 
+@media (max-width: 768px) {
+    .top-left-image {
+        width: 60px;
+        margin-top: 50px;
+    }
+    
+    h1[data-translate="title"] {
+            font-size: 1.8rem;
+    }
+    
+    nav ul {
+        gap: 0.35rem;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+    }
+
+    .home-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .home-content p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+    }
+
+    .stat-img {
+        width: 70px;
+    }
+
+    .stats {
+        gap: 5px;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+    
+}

@@ -124,7 +124,7 @@ nav ul li a {
 }
 .top-left-icons {
     position: absolute;
-    top: -70px;
+    top: 6px;
     left: 20px;
     display: flex;
     align-items: center;
@@ -138,7 +138,7 @@ nav ul li a {
 }
 
 .top-left-icons .home-img {
-    width: 160px; /* Adjust home button size */
+    width: 120px; /* Adjust home button size */
     height: auto;
     transition: transform 0.2s ease-in-out;
 }
@@ -151,4 +151,27 @@ nav ul li a {
     transition: transform 0.2s ease-in-out;
     position: relative;
     left: 0px;
+}
+/* Responsive Fix */
+@media (max-width: 768px) {
+    .top-left-icons {
+        top: 0px; /* Moves it closer to the top */
+        left: 5px;
+        gap: 5px;
+    }
+
+    .top-left-icons .logo {
+        width: 60px; /* Smaller logo */
+    }
+
+    .top-left-icons .home-img {
+        width: 60px;
+    }
+
+    .extra-img {
+        width: 60px;
+        display: none;
+
+        
+    }
 }
