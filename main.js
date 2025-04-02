@@ -68,26 +68,32 @@ document.querySelectorAll('.btn').forEach(button => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+    console.log("Counter script is running!");
+
     const counters = document.querySelectorAll(".counter");
 
     counters.forEach(counter => {
         counter.innerText = "0";
-        const updateCounter = () => {
-            const target = +counter.getAttribute("data-target");
-            const current = +counter.innerText;
-            const increment = target / 200; // Adjust speed by changing this value
+        let target = +counter.getAttribute("data-target");
+        let count = 0;
 
-            if (current < target) {
-                counter.innerText = Math.ceil(current + increment);
-                setTimeout(updateCounter, 20); // Adjust timing
+        function updateCounter() {
+            let increment = target / 100; // Adjust speed
+
+            if (count < target) {
+                count += increment;
+                counter.innerText = Math.floor(count);
+                setTimeout(updateCounter, 30); // Adjust timing
             } else {
-                counter.innerText = target; // Ensure it stops exactly at the target
+                counter.innerText = target; // Ensure exact target value
             }
-        };
+        }
 
         updateCounter();
     });
 });
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const video = document.querySelector(".video-container video");
     const slider = document.querySelector(".slider");
@@ -130,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
         slider.style.transform = `translateX(${scrollAmount}px)`;
     }
 
-    setInterval(moveSlider, 30); // Ajusta la velocidad del carrusel
+    setInterval(moveSlider, 50); // Ajusta la velocidad del carrusel
 });
 
 

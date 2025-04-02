@@ -157,22 +157,8 @@ nav ul li a {
 
 
 /* 🔹 Animación del Slider */
-@keyframes slide {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); } /* Ahora se reinicia sin pausa */
-}
 
-/* 🔹 Diseño Responsivo */
-@media (max-width: 768px) {
-    .slider img.horizontal {
-        height: 120px;
-    }
-    
-    .slider img.vertical {
-        width: 80px;
-        height: 120px;
-    }
-}
+
 /* 🔹 Contenedor para colocar Texto a la Izquierda y Video a la Derecha */
 .ronqueo-content {
     display: flex;
@@ -250,5 +236,17 @@ nav ul li a {
             display: none;
     
             
+       }
+    .slider img.horizontal {
+            height: 120px;
+        }
+        
+    .slider img.vertical {
+            width: 80px;
+            height: 120px;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); } /* Ahora se reinicia sin pausa */
         }
     }

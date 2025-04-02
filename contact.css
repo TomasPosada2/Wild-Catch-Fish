@@ -58,15 +58,35 @@ nav ul li a {
     background-color: #25D366; /* WhatsApp Green */
     color: white;
     text-decoration: none;
-    font-size: 16px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    margin: 10px auto;
-    width: 80%;
-    max-width: 300px;
+    font-size: 18px; /* Slightly larger text */
+    padding: 15px 25px; /* Increased padding for more space */
+    border-radius: 8px; /* Smoother rounded corners */
+    margin: 15px auto; /* More margin */
+    width: 85%; /* Slightly wider */
+    max-width: 350px; /* Allow for a bigger button */
     font-weight: bold;
     transition: 0.3s;
+    text-align: center;
 }
+.email {
+    text-align: center; /* Center the text */
+    display: block; /* Make it behave like a block element */
+    font-size: 18px; /* Adjust size */
+    margin: 15px auto; /* Add spacing to match other elements */
+    color: #333; /* Ensure good readability */
+    font-weight: bold;
+}
+
+.email a {
+    color: #003366; /* Match your theme */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+
+.email a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 
 /* WhatsApp Button */
 .whatsapp  {
