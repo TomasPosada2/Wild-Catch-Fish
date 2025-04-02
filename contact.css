@@ -117,6 +117,13 @@ nav ul li a {
 .email a:hover {
     text-decoration: underline;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* Shipping Info */
 .shipping {
@@ -126,11 +133,17 @@ nav ul li a {
 }
 
 /* ======= Footer ======= */
+.main-content {
+    flex: 1; /* Pushes the footer down */
+}
+
 .footer {
     background-color: #00408000;
     color: white;
-    padding: 0px ;
-    margin-top: 190px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    top: 10px;
 }
 /* ======= Logo & Home Button (Top Left) ======= */
 .top-left-icons {
@@ -182,4 +195,27 @@ nav ul li a {
         width: 60px;
         display: none;
     }
+    .contact-section {
+        width: 90%; /* Make it more compact */
+        max-width: 350px; /* Limit the max width */
+        padding: 20px; /* Reduce padding */
+        text-align: center; /* Center align content */
+        margin: 20px auto; /* Ensure centering */
+    }
+
+    .contact-button {
+        font-size: 14px; /* Reduce text size */
+        padding: 8px 12px; /* Reduce padding */
+        width: 100%; /* Ensure buttons fit */
+        max-width: 250px; /* Limit button width */
+    }
+
+    .contact-button img {
+        width: 30px; /* Make icons smaller */
+    }
+
+    .email {
+        font-size: 14px; /* Adjust email text */
+    }
+
 }
