@@ -242,6 +242,11 @@ nav ul li a {
         display: none;
     }
     h1{
+        font-size: 2.8rem;
+}
+@media (max-width: 380px) {
+    h1{
         font-size: 2.5rem;
+}
 }
 }
