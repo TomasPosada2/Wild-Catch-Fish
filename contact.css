@@ -237,5 +237,20 @@ html, body {
     .email {
         font-size: 14px; /* Adjust email text */
     }
-
+    @media (max-width: 768px) {
+        nav ul {
+            padding: 0;
+            text-align: center;
+        }
+    
+        nav ul li {
+            display: inline-block;
+            margin: 0 0px;
+        }
+    
+        nav ul li a {
+            font-size: 14px; /* Reduce font size */
+            padding: 1px -600px; /* Adjust padding */
+        }
+    }
 }

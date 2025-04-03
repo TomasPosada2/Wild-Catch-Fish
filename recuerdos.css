@@ -225,7 +225,7 @@ nav ul li a {
 @media (max-width: 768px) {
     .top-left-icons {
         top: 0px; /* Moves it closer to the top */
-        left: 5px;
+        left: 1px;
         gap: 5px;
     }
 
@@ -242,6 +242,6 @@ nav ul li a {
         display: none;
     }
     h1{
-        font-size: 1.4rem;
+        font-size: 2.5rem;
 }
 }
