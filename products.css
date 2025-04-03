@@ -338,6 +338,10 @@ nav ul li a {
     white-space: nowrap; /* Keeps text in one line */
     font-weight: bold;
 }
+.bold-text {
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
     .top-left-icons {
         top: 0px; /* Moves it closer to the top */

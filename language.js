@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "lobster-tail": "Cola de Langosta",
             "footer-text": "2025 Wild Catch Fish Market. Todos los derechos reservados.",
             "quality-commitment": "Compromiso con la Calidad",
-            "quality-description": "Ofrecemos productos del mar de la más alta calidad, disponibles empacados al vacío en filete para conservar su frescura o enteros, según las necesidades de cada cliente. Nos aseguramos de que cada entrega mantenga el sabor y la textura intactos, desde el mar hasta tu cocina."
+            "quality-description": "Ofrecemos productos del mar de la más alta calidad, disponibles empacados al vacío en filete para conservar su frescura o enteros, según las necesidades de cada cliente. Nos aseguramos de que cada entrega mantenga el sabor y la textura intactos, desde el mar hasta tu cocina."
 
 
         }
