@@ -55,7 +55,22 @@ nav ul li a {
     max-width: 700px;
     margin: 0 auto;
 }
+.timeline-container {
+    max-width: 800px;
+    background: rgba(253, 252, 252, 0.547);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    
+    /* Centers it inside the body */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+    /* Makes sure it's centered horizontally */
+    margin: 50px auto;
+}
 /* 📜 TIMELINE */
 .timeline {
     max-width: 800px;
@@ -75,12 +90,12 @@ nav ul li a {
 
 .timeline-item h2 {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 8px;
 }
 
 .timeline-item p {
-    color: #ffffff;
+    color: #000000;
     font-size: 1rem;
 }
 
@@ -95,7 +110,7 @@ nav ul li a {
 }
 
 .valor-card {
-    background-color: #f4faffb5;
+    background-color: rgba(253, 252, 252, 0.547);
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -110,7 +125,7 @@ nav ul li a {
 
 .valor-card p {
     font-size: 1rem;
-    color: #555;
+    color: #000000;
 }
 
 /* ⛵ FOOTER */
