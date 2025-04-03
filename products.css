@@ -287,12 +287,11 @@ nav ul li a {
 }
 /* Estilos para la sección de calidad */
 .section.calidad {
-    background-color: #f4f4f4; /* Color de fondo */
+    background-color: #f4f4f4dc; /* Color de fondo */
     padding: 20px;
     text-align: center;
     border-radius: 10px; /* Bordes redondeados */
     margin: 20px auto;
-    max-width: 800px;
 }
 
 /* Estilo del título (h3) */
@@ -363,7 +362,7 @@ nav ul li a {
         
     }
     #whatsapp-container {
-        top: 200px;
+        top: 500px;
     }
     #whatsapp-btn img {
         width: 40px; /* Adjust the size */
