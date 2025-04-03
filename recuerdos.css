@@ -242,7 +242,7 @@ nav ul li a {
         display: none;
     }
     h1{
-        font-size: 2.8rem;
+        font-size: 3rem;
 }
 @media (max-width: 380px) {
     h1{
