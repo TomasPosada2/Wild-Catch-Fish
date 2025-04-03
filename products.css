@@ -50,7 +50,7 @@ nav ul li a {
 
 .section h2 {
     text-align: center;
-    color: #004080;
+    color: #003366;
     font-size: 45px;
 }
 
@@ -82,7 +82,7 @@ nav ul li a {
 }
 
 .info-text h3 {
-    color: #007acc;
+    color: #003366;
     font-size: 18px;
     margin-top: 15px;
 }
@@ -297,7 +297,7 @@ nav ul li a {
 /* Estilo del título (h3) */
 .section.calidad h3 {
     font-size: 24px;
-    color: #004080; /* Azul oscuro */
+    color: #003366; /* Azul oscuro */
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -312,9 +312,7 @@ nav ul li a {
 }
 
 /* Opcional: Efecto hover en el texto */
-.section.calidad a:hover {
-    color: #007acc70; /* Azul más oscuro */
-}
+
 
 
 
