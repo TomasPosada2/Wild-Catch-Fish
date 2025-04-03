@@ -83,7 +83,10 @@ document.addEventListener("DOMContentLoaded", function () {
             "shrimp": "Shrimp",
             "crab-claws": "Crab Claws",
             "lobster-tail": "Lobster Tail",
-            "footer-text": "2025 Wild Catch Fish Market. All rights reserved."
+            "footer-text": "2025 Wild Catch Fish Market. All rights reserved.",
+            "quality-commitment": "Commitment to Quality",
+            "quality-description": "We offer seafood products of the highest quality, available vacuum-packed to preserve their freshness or whole, depending on the needs of each customer. We make sure that every delivery keeps the taste and texture intact, from the sea to your kitchen."
+
         },
         es: {
             "site-title": "WILD-CATCH COLOMBIA",
@@ -164,7 +167,11 @@ document.addEventListener("DOMContentLoaded", function () {
             "shrimp": "Gambas",
             "crab-claws": "Muelas de Cangrejo",
             "lobster-tail": "Cola de Langosta",
-            "footer-text": "2025 Wild Catch Fish Market. Todos los derechos reservados."
+            "footer-text": "2025 Wild Catch Fish Market. Todos los derechos reservados.",
+            "quality-commitment": "Compromiso con la Calidad",
+            "quality-description": "Ofrecemos productos del mar de la más alta calidad, disponibles empacados al vacío para conservar su frescura o enteros, según las necesidades de cada cliente. Nos aseguramos de que cada entrega mantenga el sabor y la textura intactos, desde el mar hasta tu cocina."
+
+
         }
     };
 

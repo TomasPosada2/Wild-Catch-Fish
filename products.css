@@ -285,6 +285,38 @@ nav ul li a {
     text-align: center;
     z-index: 1000; /* Ensures it stays above other elements */
 }
+/* Estilos para la sección de calidad */
+.section.calidad {
+    background-color: #f4f4f4; /* Color de fondo */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Estilo del título (h3) */
+.section.calidad h3 {
+    font-size: 24px;
+    color: #004080; /* Azul oscuro */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilo del texto (a) */
+.section.calidad a {
+    font-size: 18px;
+    color: #000000; /* Gris oscuro */
+    line-height: 1.6;
+    display: block; /* Hace que se comporte como un párrafo */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Opcional: Efecto hover en el texto */
+.section.calidad a:hover {
+    color: #007acc70; /* Azul más oscuro */
+}
+
 
 
 /* WhatsApp Icon */
