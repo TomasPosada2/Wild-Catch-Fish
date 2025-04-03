@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "vision-text": "Ser líderes en la pesca sostenible y expandir nuestra comunidad alrededor del mundo. Teniendo siempre en cuenta la sostenibilidad y la responsabilidad con el medio ambiente generando un imapcto positivo con las comunidades pesqueras.",
             "event-title": "Ronqueo de Atún - Wild Catch Fish Market",
             "what-is-ronqueo": "¿Qué es el Ronqueo de Atún?",
-            "ronqueo-description": "El ronqueo es el arte tradicional de despiece del atún rojo, una técnica que ha pasado de generación en generación. Su nombre proviene del sonido característico que produce el cuchillo al cortar las fibras del pescado.",
+            "ronqueo-description": "El ronqueo es el arte tradicional de despiece del atún, una técnica que ha pasado de generación en generación. Su nombre proviene del sonido característico que produce el cuchillo al cortar las fibras del pescado.",
             "ronqueo-usage": "Esta práctica permite aprovechar cada parte del atún, asegurando el máximo rendimiento y ofreciendo productos de altísima calidad a los mejores restaurantes del mundo.",
             "restaurant-collaboration": "Colaboración con los Mejores Restaurantes",
             "collaboration-text": "Nos asociamos con los mejores restaurantes de alta cocina para llevar el ronqueo en vivo.",
