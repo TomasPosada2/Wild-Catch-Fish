@@ -69,12 +69,12 @@ document.addEventListener("DOMContentLoaded", function () {
             "tuna": "Yellowfin Tuna",
             "dorado": "Mahi-Mahi",
             "sierra": "Wahoo",
-            "bravo": "Bravo",
+            "bravo": "Amber Jack",
             "cherna": "Grouper",
             "merluza": "Hake",
             "pargo": "Red Snapper",
-            "pargop": "Red Silver Snapper",
-            "berrugate": "Berrugate",
+            "pargop": "Whole Red Snapper",
+            "berrugate": "Triple tail",
             "robalo": "Snook",
             "sardinata": "Sardinata",
             "corvina": "Croaker",
@@ -85,8 +85,11 @@ document.addEventListener("DOMContentLoaded", function () {
             "lobster-tail": "Lobster Tail",
             "footer-text": "2025 Wild Catch Fish Market. All rights reserved.",
             "quality-commitment": "Commitment to Quality",
-            "quality-description": "We offer seafood products of the highest quality, available vacuum-packed in fillet to preserve their freshness or whole, depending on the needs of each customer. We make sure that every delivery keeps the taste and texture intact, from the sea to your kitchen."
-
+            "quality-description": "We offer seafood products of the highest quality, available vacuum-packed in fillet to preserve their freshness or whole, depending on the needs of each customer. We make sure that every delivery keeps the taste and texture intact, from the sea to your kitchen.",
+            "service": "We support responsible practices, working with artisanal fishermen who guarantee a sustainable process, taking care of our oceans and ensuring traceability from the sea to the table.",
+            "lobster-tail2":"(100g-140g x tail)",
+            "lobster-tail3":"(140g-180g x tail)",
+            "Gale":"GALLERY"
         },
         es: {
             "site-title": "WILD-CATCH COLOMBIA",
@@ -169,9 +172,11 @@ document.addEventListener("DOMContentLoaded", function () {
             "lobster-tail": "Cola de Langosta",
             "footer-text": "2025 Wild Catch Fish Market. Todos los derechos reservados.",
             "quality-commitment": "Compromiso con la Calidad",
-            "quality-description": "Ofrecemos productos del mar de la más alta calidad, disponibles empacados al vacío en filete para conservar su frescura o enteros, según las necesidades de cada cliente. Nos aseguramos de que cada entrega mantenga el sabor y la textura intactos, desde el mar hasta tu cocina."
-
-
+            "quality-description": "Ofrecemos productos del mar de la más alta calidad, disponibles empacados al vacío en filete para conservar su frescura o enteros, según las necesidades de cada cliente. Nos aseguramos de que cada entrega mantenga el sabor y la textura intactos, desde el mar hasta tu cocina.",
+            "service": "Respaldamos prácticas responsables, trabajando con pescadores artesanales que garantizan un proceso sostenible, cuidando nuestros océanos y asegurando la trazabilidad desde el mar hasta la mesa.",
+            "lobster-tail2":"(100g-140g x cola)",
+            "lobster-tail3":"(140g-180g x cola)",
+            "Gale":"GALERÍA"
         }
     };
 
